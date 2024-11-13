@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sociedad gastronomica">
+  <meta name="keywords" content="sociedad, gastronomia, comida">
+  <meta name="author" content="Jon Hormaechea">
+  <title>GASTRO HORMAECHEA</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div class="body">
+		<div class="cabecera">
+			<div class="logo">
+				<a href="index.html" alt="index" target="_blank"><img src="gastronomica_logo_beltza.svg" /></a>
+			</div>
+		</div>
+		<div class="menu"> 
+		<ul>
+			<div class="submenu">
+				<li>
+					<a href="quienes_somos.html" alt="quienes somos" target="_blank">QUIENES SOMOS</a>
+				</li>
+			</div>
+			<div class="submenu">
+				<li>
+					<a href="noticias.html" alt="noticias" target="_blank">NOTICIAS</a>
+				</li>
+			</div>
+			<div class="submenu">
+				<li>
+					<a href="recetas.html" alt="recetas" target="_blank">RECETAS</a>
+				</li>
+			</div>
+			<div class="submenu">
+				<li>
+					<a href="contacto.html" alt="contacto" target="_blank">CONTACTO</a>
+				</li>
+			</div>
+		</ul>
+		</div>
+		<div class="contenido_contacto">
+				<div class="contacto_img"></div><div class="titulo_contacto"><h1>Contacta con nosotros</h1></div>
+		</div>		
+			<div class="contenido_formulario">
+			<form action="mailto:gastrohormaechea@gmail.com" method="post" enctype="text/plain">
+				<label for="nombre">Nombre Completo:</label><br>
+					<input type="text" id="nombre" name="nombre" required><br><br>
+
+				<label for="email">Correo Electrónico:</label><br>
+					<input type="email" id="email" name="email" required><br><br>
+
+				<label for="telefono">Teléfono:</label><br>
+					<input type="tel" id="telefono" name="telefono"><br><br>
+
+				<label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+					<input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+
+				<label for="direccion">Dirección:</label><br>
+					<input type="text" id="direccion" name="direccion"><br><br>
+
+				<label for="preferencias">Preferencias Gastronómicas:</label><br>
+					<select id="preferencias" name="preferencias">
+						<option value="vegetariano">Vegetariano</option>
+						<option value="vegano">Vegano</option>
+						<option value="omnivoro">Omnívoro</option>
+					</select><br><br>
+
+				<label for="alergias">Alergias o Restricciones Alimenticias:</label><br>
+					<textarea id="alergias" name="alergias" rows="4" cols="50"></textarea><br><br>
+
+				<label for="experiencia">Experiencia en Cocina:</label><br>
+					<select id="experiencia" name="experiencia">
+						<option value="ninguna">Ninguna</option>
+						<option value="basica">Básica</option>
+						<option value="intermedia">Intermedia</option>
+						<option value="avanzada">Avanzada</option>
+					</select><br><br>
+
+				<label for="comentarios">Comentarios Adicionales:</label><br>
+					<textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+		<div class="pie">
+			<div class="contenido_pie">
+				<p>T. 944 411234 · F. 944 411235 · gastrohormaechea@gmail.com</p>
+				<p>© Cofradía Gastro Hormaechea / Gastro Hormaechea Anaiartea</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

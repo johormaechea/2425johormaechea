@@ -1,0 +1,145 @@
+
+.body{
+	font-family:Arial;
+	text-decoration:none;
+	list-style:none;
+}
+.cabecera{
+	width:100%;
+	float:left;
+}
+.logo{
+	float:left;
+	width:100%;
+	margin-left:15%;
+	margin-right:15;
+}
+.menu {
+	float:left;
+	width:100%;
+	border-top:1px solid;
+	text-decoration:none;
+	margin-bottom:20px;
+}
+.submenu{
+	float:left;
+	width:25%;
+	text-align:center;
+	list-style:none;
+	text-decoration:none;
+	}
+.contenido{
+	float:left;
+	width:100%;
+	background-color:#EDEDED;
+}
+.contenido_izq{
+	float:left;
+	width:30%;
+}
+.contenido_izq_quienes_somos{
+	float:left;
+	width:30%;
+	height:100%;
+	border-right:1px;
+}
+.contenido_centro{
+	float:left;
+	width:40%;
+}
+.contenido_dcha{
+	float:left;
+	width:30%;
+}
+.contenido_dcha_quienes_somos{
+	float:left;
+	width:30%;
+	border-left:1px;
+	height:100%;
+}
+.contenido_quienes_somos{
+	float:left;
+	width:100%;
+	margin:10px 10px 10px 10px;
+}
+
+.contenido_formulario{
+	float:left;
+	width:100%;
+	margin:30px 0px 30px 30px;
+	
+}
+.contenido_contacto{
+	float:left;
+	width:100%;
+	background-color:#EDEDED;
+}
+.contacto_img{
+	float:left;
+	width:40%;
+	height:200px;
+	background-image:url('contacto.svg');
+	background-repeat: no-repeat;
+}
+.noticias_img{
+	float:left;
+	width:40%;
+	height:200px;
+	background-image:url('guisantes.svg');
+	background-repeat: no-repeat;
+}
+.quienes_somos_img{
+	float:left;
+	width:40%;
+	height:200px;
+	background-image:url('quienes_somos.svg');
+	background-repeat: no-repeat;
+}
+.recetas_img{
+	float:left;
+	width:40%;
+	height:200px;
+	background-image:url('recetas.svg');
+	background-repeat: no-repeat;
+}
+.noticias{
+	float:left;
+	width:100%;
+}
+.noticias_izq{
+	float:left;
+	width:33%;
+}
+.noticias_centro{
+	float:left;
+	width:33%;
+}
+.noticias_dcha{
+	float:left;
+	width:33%;
+}
+.titulo_contacto{
+	float:left;
+	width:60%;
+	margin-top:50px;
+}
+.pie{
+	float:left;
+	width:100%;
+	background-color:grey;
+}
+.contenido_pie{
+	float:left;
+	width:100%;
+	margin-left:30%;
+	margin-right:30%;
+}
+a{
+	text-decoration:none;
+	list-style:none;
+}
+h1{
+	width:100%;
+	margin-left:20%;
+	margin-right:20%;
+}

@@ -3,7 +3,7 @@
   <channel>
     <!--en este apartado se añaden las propiedades del canal-->
     <title>Ejemplo de canal</title> 
-    <link></link> 
+    <link>http://misitioweb</link>
     <description>Este es un archivo RSS</description> 
       <item>
         <!--en este apartado se añade el contenido de la primera entrada-->

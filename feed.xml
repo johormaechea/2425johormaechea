@@ -2,21 +2,23 @@
 <rss version="2.0">
   <channel>
     <!--en este apartado se añaden las propiedades del canal-->
+    <title>Ejemplo de canal</title> 
+    <link></link> 
+    <description>Este es un archivo RSS</description> 
       <item>
         <!--en este apartado se añade el contenido de la primera entrada-->
-		<title>Primer artículo</title>
-        <link>https://www.ejemplo.com/articulo1</link>
+	<title>Primer articulo</title>
+        <link>https://www.xataka.com/investigacion/acabamos-reescribir-genealogia-habitantes-cantabria-paleolitico-gracias-a-adn-hallado-barro</link>
         <description>Este es el contenido del primer artículo.</description>
         <pubDate>Tue, 13 Feb 2024 10:00:00 GMT</pubDate>
-        <guid>https://www.ejemplo.com/articulo1</guid>
       </item>
       <item>
         <!--en este apartado se añade el contenido de la segunda entrada-->
-		<title>Segundo artículo</title>
-        <link>https://www.ejemplo.com/articulo2</link>
+	<title>Segundo artículo</title>
+        <link>https://hipertextual.com/2025/02/capitan-america-brave-new-world-critica</link>
         <description>Este es el contenido del segundo artículo.</description>
-        <pubDate>Tue, 13 Feb 2024 12:30:00 GMT</pubDate>
-        <guid>https://www.ejemplo.com/articulo2</guid>
+        <pubDate>Tue, 13 Feb 2024 12:30:00 GMT</pubDate>   
       </item>
   </channel>
 </rss>
+
